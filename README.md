@@ -1,6 +1,6 @@
 <h1>CSCI 412 @ NDSU - Assignment 2</h1>
 
-A simple android app for my CSCI 412 Movile App Development elective course at NDSU.
+A simple Android app for my CSCI 412 Movile App Development elective course at NDSU.
 
 
 * You must use Android Studio to create the app.
