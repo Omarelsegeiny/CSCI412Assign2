@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView_challenges"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Challenges in Mobile Software Engineering:\n\n
+            1. Battery Optimization\n
+            2. Mobile App Architecture\n
+            3. Security and Privacy\n
+            4. Performance Optimization\n
+            5. App Quality and Maintenance"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button_main_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Main Activity"
+            android:padding="16dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
