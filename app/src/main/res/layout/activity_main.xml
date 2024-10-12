@@ -50,6 +50,7 @@
             android:padding="16dp"
             android:text="Start Activity Explicitly" />
 
+
         <Button
             android:id="@+id/button_implicit"
             android:layout_width="wrap_content"
@@ -57,7 +58,21 @@
             android:padding="16dp"
             android:text="Start Activity Implicitly" />
 
+
+        <!-- Assignment 4 xml additions -->
+        <Button
+            android:id="@+id/button_view_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Image Activity"
+            android:padding="16dp" />
+
+
+
+
     </LinearLayout>
+
+
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
 

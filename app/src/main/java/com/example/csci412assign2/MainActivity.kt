@@ -75,5 +75,13 @@ class MainActivity : AppCompatActivity() {
         return navController.navigateUp(appBarConfiguration)
                 || super.onSupportNavigateUp()
     }
+
+    // Activity 3 (Assignment 4)
+    val viewImageButton = findViewById<Button>(R.id.button_view_image)
+    viewImageButton.setOnClickListener {
+        val imageIntent = Intent(this, ThirdActivity::class.java)
+        startActivity(imageIntent)
+    }
+
     }
 }
